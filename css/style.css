@@ -294,6 +294,7 @@ img {
 
 
 .features__container {
+  position: relative;
   display: flex;
   text-align: center;
   margin-top: -40px;
@@ -374,3 +375,12 @@ img {
   margin: 0;
 }
 
+.box{
+ 
+}
+
+.features__right-img{
+  position: absolute;
+  right: -244px;
+  bottom: -185px;
+}
